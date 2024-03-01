@@ -1,6 +1,7 @@
 html, body {
     padding: 0px;
     margin: 0px;
+    background-color: D9D9D9;
 }
 
 section {
@@ -28,9 +29,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
     top: 0px;
     position: sticky;
+    background-image: ;
 }
 
 .img-header {
@@ -409,6 +410,114 @@ footer  {
     cursor: pointer;
     
 }
+
+
+.rectangle:hover { 
+       transform: scale(1.5); 
+}
+
+.rectangle-2:hover { 
+    transform: scale(1.5); 
+}
+
+.img:hover { 
+    transform: scale(1.5); 
+}
+
+.rectangle-3:hover { 
+    transform: scale(1.5); 
+}
+
+.rectangle-4:hover { 
+    transform: scale(1.5); 
+}
+
+.rectangle-5:hover { 
+       transform: scale(1.5); 
+}
+
+.slide {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .slide .div {
+    background-color: #ffffff;
+    width: 1920px;
+    height: 1264px;
+    position: relative;
+  }
+  
+  .slide .rectangle {
+    width: 402px;
+    height: 297px;
+    top: 262px;
+    left: 126px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .slide .img {
+    width: 394px;
+    height: 297px;
+    top: 831px;
+    left: 1252px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .slide .rectangle-2 {
+    width: 393px;
+    height: 542px;
+    top: 586px;
+    left: 135px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .slide .rectangle-3 {
+    width: 385px;
+    height: 542px;
+    top: 262px;
+    left: 1252px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .slide .rectangle-4 {
+    width: 402px;
+    height: 538px;
+    top: 262px;
+    left: 689px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .slide .rectangle-5 {
+    width: 402px;
+    height: 300px;
+    top: 828px;
+    left: 689px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .slide .text-wrapper {
+    position: absolute;
+    top: 140px;
+    left: 136px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 27.5px;
+    white-space: nowrap;
+  }
+  
 
 /* .svg {
     display: flex;
